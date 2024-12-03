@@ -3,7 +3,6 @@ class triangle_number:
         self.min = min ## 最小因子数
         self.num = 1
         self.i = 1
-        self.factors = set()
     
     def count_factors(self, n):
         factors = set()
