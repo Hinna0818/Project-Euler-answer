@@ -7,7 +7,6 @@ def fun(n1, n2):
     day = 6
     sunday_counts = 0
 
-
     for i in range(n1, n2+1):
         if (i%4 == 0 and i%100 != 0) or (i%400 == 0):
             a[1] = 29
