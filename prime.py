@@ -8,4 +8,5 @@ def prime(n):
                 sieve[j] = False
     return [i for i in range(2,n) if sieve[i]]
 
+## test
 prime(100)
