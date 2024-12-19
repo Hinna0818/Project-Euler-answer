@@ -12,6 +12,10 @@ def fun(num):
 
         for p in fun(remaining):  
             result.append([current]+p)
+
+        if len(result) > 1000000:
+             break
+
     return result
 
 number = list(range(10))
